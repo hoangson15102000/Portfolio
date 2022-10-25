@@ -72,7 +72,7 @@ function App() {
 
       </form > */}
       {isLoading ? <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'><ReactBootStrap.Spinner animation="border" /><p>Loading</p></div> : <form onSubmit={handleSubmit(onSubmit)} className='z-0 px-4 py-4 my-32 max-w-xl mx-auto space-y-6 bg-gray-100 rounded-md '>
-        <h1 className='text-black font-semibold text-3xl hover:text-blue-700 '>Facebook</h1>
+        <h1 className='text-black font-semibold text-3xl hover:!text-blue-700 '>Facebook</h1>
         <div className='text-md'>
           <label className="hover:text-blue-700" htmlFor="email">Email address</label>
           <input
